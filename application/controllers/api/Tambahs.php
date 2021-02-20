@@ -18,3 +18,4 @@ class Tambahs extends REST_Controller
     $this->response(['tambahs'=> $data], 200);
   }
 }
+?>

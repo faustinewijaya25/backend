@@ -43,5 +43,4 @@ class Tambah_model extends CI_model
     $this->db->insert( 'tambahresep', $data );
   }
 }
-
 ?>

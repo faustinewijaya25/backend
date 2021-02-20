@@ -47,6 +47,4 @@ public function kuahlist()
   //    $query = $this->db->get('kuah');
   //    return $query->result();
   }
-
-
   ?>

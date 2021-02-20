@@ -18,4 +18,5 @@ class Logins extends REST_Controller
     $this->response(['logins'=> $data], 200);
   }
 }
+
   ?>

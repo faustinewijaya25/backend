@@ -23,6 +23,7 @@ class Details extends REST_Controller
     $this->response(['details'=> $data], 200);
   }
 
+
   // public function gorenganresep_get()
   // {
   //   $where='';

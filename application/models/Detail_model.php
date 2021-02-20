@@ -30,6 +30,7 @@ if ( $where != '' ) $this->db->where( $where );
   return $query->result_array();
 }
 
+
   // public function gorenganlist($where='')
   // {
   //   $this->db->select('*');

@@ -36,4 +36,5 @@ class Reseps extends REST_Controller
      $this->response(['reseps'=> $data], 200);
    }
  }
+ 
 ?>
