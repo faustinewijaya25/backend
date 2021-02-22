@@ -15,9 +15,9 @@ class Details extends REST_Controller
   public function detailresep_get()
   {
     $where='';
-    if (null !== $this->get('nama_resep')){
-      $detail = $this->get('nama_resep');
-      $where = "nama_resep LIKE '" . $detail . "'";
+    if (null !== $this->get('id_resep')){
+      $detail = $this->get('id_resep');
+      $where = "id_resep LIKE '" . $detail . "'";
     }
     $data = $this->detail_model->detaillist();
     $this->response(['details'=> $data], 200);
